@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="steyl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="container">
+        <nav>
+            <a  href="index.html"><img src="logo.jpeg" alt="logo" ></a>
+
+            <div class="nav-links" id="nav-links">
+
+                <i class="fa fa-times"  onclick="hidenMenu()"></i>
+
+                <ul>
+                    <li><a href="#">ANASAYFA</a></li>
+                    <li><a href="#">HAKKIMIZDA</a></li>
+                    <li><a href="#">KURSLAR</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">İLETİŞİM</a></li>
+               
+            </ul> 
+            </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Dunyain en Interaktif ve Etlikelisimli Online Eğitim Platformu</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Ipsam veniam suscipit saepe.</p>
+
+                 <a href="#" class="hero-btn">Bize Dokun, Degisimi Yakala</a>
+        </div>
+    </section>
+
+</section>
+
+
+<!----  Courses    ------>
+<section class="curse">
+   <h1>Neler Sunuyoruz</h1>
+   <p> 
+       Lorem Ipsum is simply dummy text of the printing and typesetting 
+       industry. 
+   </p>
+   <div class="row">
+       <div class="curse-col">
+           <h3>Baslangıc</h3>
+           <p> 
+               Lorem Ipsum is simply dummy text of the printing and typesetting 
+               industry.  Lorem Ipsum is simply dummy text of the printing and typesetting 
+               industry. Lorem Ipsum is simply dummy text of the printing and typesetting 
+               industry.  Lorem Ipsum is simply dummy text of the printing and typesetting 
+               industry. 
+           </p>
+       </div>
+       <div class="curse-col">
+           <h3>Orta</h3>
+           <p> 
+               Lorem Ipsum is simply dummy text of the printing and typesetting 
+               industry.  Lorem Ipsum is simply dummy text of the printing and typesetting 
+               industry. Lorem Ipsum is simply dummy text of the printing and typesetting 
+               industry.  Lorem Ipsum is simply dummy text of the printing and typesetting 
+               industry. 
+           </p>
+       </div>
+       <div class="curse-col">
+           <h3>Ileri</h3>
+           <p> 
+               Lorem Ipsum is simply dummy text of the printing and typesetting 
+               industry.  Lorem Ipsum is simply dummy text of the printing and typesetting 
+               industry. Lorem Ipsum is simply dummy text of the printing and typesetting 
+               industry.  Lorem Ipsum is simply dummy text of the printing and typesetting 
+               industry. 
+           </p>
+       </div>
+   </div>
+</section>
+
+          
+   
+      
+   
+
+    <section class="campus">
+        <h1>Bizim Kucuk Yerleskelerimiz</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Ipsam veniam suscipit saepe. Lorem ipsum dolor sit amet
+             consectetur!</p>
+
+
+             <div class="row">
+                <div class="campus-col">
+                    <img src="foto.jpeg" alt="">
+                    <div class="layer">
+                        <h3>ISTANBUL</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="foto.jpeg" alt="">
+                    <div class="layer">
+                        <h3>STOCKHOLM</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="foto.jpeg" alt="">
+                    <div class="layer">
+                        <h3>TORONTO</h3>
+                    </div>
+                </div>
+             </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script>
+        var navlinks = document.getElementById("nav-links");
+
+        function showMenu(){
+         navlinks.style.right = "0";
+        }
+
+        function hidenMenu(){
+       navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
